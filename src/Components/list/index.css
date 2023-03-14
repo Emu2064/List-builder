@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+.container button{
+    height: 40px;
+    width: 70px;
+}
+
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.items table,thead,tbody,td{
+    border: 1px solid red;
+}
+
+
+.singleElementAdd{
+    color: red;
+    text-decoration: line-through;
+}
+
+.singleElementRemove{
+    text-decoration: none;
+}
